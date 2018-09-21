@@ -19,7 +19,7 @@ Theme Styles
 body {
   color:#373737;
   background: #212121;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -216,6 +216,7 @@ Full-Width Styles
 .outer {
   width: 100%;
   padding: 0 10px;
+  overflow: hidden;
 }
 
 .inner {
@@ -223,6 +224,7 @@ Full-Width Styles
   max-width: 960px;
   padding: 20px 10px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 #forkme_banner {
@@ -290,9 +292,11 @@ header {
   padding-top: 40px;
 }
 
+
+
 #main_content.inner {
   background-color: #fff;
-  padding: 70px 100px;
+  padding: 30px 50px;
   box-shadow: 0 0 5px #ebebeb;
   -webkit-box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
   -moz-box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
@@ -374,3 +378,7 @@ Small Device Styles
     font-size: 11px;
   }
 }
+
+.pic_container {width: 100%;}
+.pic_container_photo {float: right; width: 20%;}
+.pic_container_content {float: left; width: 80%;}
